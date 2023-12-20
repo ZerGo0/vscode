@@ -27,6 +27,8 @@
     "git.autofetch": true,
     "workbench.colorCustomizations": {
         "sideBar.foreground": "#ffffff",
+        "list.inactiveSelectionForeground": "#e2de00",
+        "list.activeSelectionForeground": "#e2de00"
     },
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -52,4 +54,8 @@
     },
     "editor.smoothScrolling": false,
     "git.enableSmartCommit": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "workbench.reduceMotion": "on",
 }
