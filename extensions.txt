@@ -1,4 +1,5 @@
 code --install-extension bobmagicii.autofoldyeah
+code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension esbenp.prettier-vscode
