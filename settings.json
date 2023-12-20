@@ -1,0 +1,55 @@
+{
+    "workbench.startupEditor": "none",
+    "svelte.enable-ts-plugin": true,
+    "workbench.colorTheme": "Ayu Dark",
+    "editor.fontSize": 18,
+    "explorer.confirmDelete": false,
+    "debug.console.fontSize": 18,
+    "scm.inputFontSize": 18,
+    "terminal.integrated.fontSize": 18,
+    "chat.editor.fontSize": 18,
+    "markdown.preview.fontSize": 18,
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "cody.commandCodeLenses": true,
+    "cody.telemetry.level": "off",
+    "cody.autocomplete.formatOnAccept": true,
+    "editor.formatOnSave": true,
+    "editor.foldingImportsByDefault": true,
+    "editor.showFoldingControls": "always",
+    "autofold.default": 1,
+    "autofold.delay": 0,
+    "autofold.unfold": true,
+    "autofold.pack": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Hack', Hack",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "workbench.colorCustomizations": {
+        "sideBar.foreground": "#ffffff",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "comment",
+                    "comment.block.documentation",
+                    "comment.block.documentation.js",
+                    "comment.line.double-slash.js",
+                    "storage.type.class.jsdoc",
+                    "entity.name.type.instance.jsdoc",
+                    "variable.other.jsdoc",
+                    "punctuation.definition.comment",
+                    "punctuation.definition.comment.begin.documentation",
+                    "punctuation.definition.comment.end.documentation"
+                ],
+                "settings": {
+                    "fontStyle": "italic",
+                    "foreground": "#303030",
+                }
+            }
+        ]
+    },
+    "editor.smoothScrolling": false,
+    "git.enableSmartCommit": true,
+}
