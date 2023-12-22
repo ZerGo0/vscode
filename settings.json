@@ -73,5 +73,6 @@
   "files.associations": {
     "*.env": "properties"
   },
-  "explorer.confirmDragAndDrop": false
+  "explorer.confirmDragAndDrop": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
