@@ -21,3 +21,15 @@ code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension csstools.postcss
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension esbenp.prettier-vscode
+code --install-extension golang.go
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension sourcegraph.cody-ai
+code --install-extension svelte.svelte-vscode
+code --install-extension teabyii.ayu
+code --install-extension usernamehw.errorlens
+code --install-extension wayou.vscode-todo-highlight
