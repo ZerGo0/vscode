@@ -74,5 +74,12 @@
     "*.env": "properties"
   },
   "explorer.confirmDragAndDrop": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "diffEditor.renderSideBySide": false
 }

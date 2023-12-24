@@ -76,7 +76,7 @@
     "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
   },
   {
-    "key": "f8",
+    "key": "f15",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
   },
@@ -182,5 +182,13 @@
     "key": "ctrl+shift+-",
     "command": "-workbench.action.navigateForward",
     "when": "canNavigateForward"
+  },
+  {
+    "key": "f8",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
   }
 ]
