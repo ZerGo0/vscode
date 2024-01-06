@@ -15,12 +15,12 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "f14",
+    "key": "f15",
     "command": "workbench.action.pinEditor",
     "when": "!activeEditorIsPinned"
   },
   {
-    "key": "f14",
+    "key": "f15",
     "command": "workbench.action.unpinEditor",
     "when": "activeEditorIsPinned"
   },
@@ -76,7 +76,7 @@
     "when": "debuggersAvailable && disassemblyViewFocus || debuggersAvailable && editorTextFocus"
   },
   {
-    "key": "f15",
+    "key": "f9",
     "command": "editor.toggleFold",
     "when": "editorTextFocus && foldingEnabled"
   },
@@ -119,20 +119,20 @@
     "command": "-workbench.action.moveEditorToNextGroup"
   },
   {
-    "key": "f9",
+    "key": "f14",
     "command": "workbench.action.moveEditorToNextGroup",
     "args": {
       "direction": "left"
     },
-    "when": "activeEditorGroupIndex == 1 && editorFocus"
+    "when": "editorFocus && activeEditorGroupIndex == '1'"
   },
   {
-    "key": "f9",
+    "key": "f14",
     "command": "workbench.action.moveEditorToPreviousGroup",
     "args": {
       "direction": "left"
     },
-    "when": "activeEditorGroupIndex == 2 && editorFocus"
+    "when": "editorFocus && activeEditorGroupIndex == '2'"
   },
   {
     "key": "f22",
@@ -190,5 +190,13 @@
   {
     "key": "ctrl+r",
     "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "f16",
+    "command": "cody.command.generate-tests"
+  },
+  {
+    "key": "f17",
+    "command": "cody.command.document-code"
   }
 ]
