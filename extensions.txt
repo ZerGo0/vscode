@@ -6,6 +6,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
+code --install-extension redhat.vscode-xml
 code --install-extension sourcegraph.cody-ai
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
