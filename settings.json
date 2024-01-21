@@ -85,5 +85,6 @@
   "redhat.telemetry.enabled": false,
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
-  }
+  },
+  "telemetry.telemetryLevel": "off"
 }

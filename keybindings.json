@@ -198,5 +198,13 @@
   {
     "key": "f17",
     "command": "cody.command.document-code"
+  },
+  {
+    "key": "f17",
+    "command": "github.copilot.interactiveEditor.generateDocs"
+  },
+  {
+    "key": "f16",
+    "command": "github.copilot.interactiveEditor.generateTests"
   }
 ]
