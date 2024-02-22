@@ -22,7 +22,6 @@
   "autofold.pack": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Hack', Hack",
-  "diffEditor.ignoreTrimWhitespace": false,
   "git.confirmSync": false,
   "git.autofetch": true,
   "workbench.colorCustomizations": {
@@ -81,10 +80,17 @@
   "[go]": {
     "editor.defaultFormatter": "golang.go"
   },
-  "diffEditor.renderSideBySide": false,
   "redhat.telemetry.enabled": false,
   "[xml]": {
     "editor.defaultFormatter": "redhat.vscode-xml"
   },
-  "telemetry.telemetryLevel": "off"
+  "telemetry.telemetryLevel": "off",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  }
 }
