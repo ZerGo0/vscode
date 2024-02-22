@@ -156,7 +156,13 @@
   },
   {
     "key": "f7",
-    "command": "workbench.action.focusActiveEditorGroup",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.focusActiveEditorGroup",
+        "workbench.action.terminal.toggleTerminal"
+      ]
+    },
     "when": "terminalFocus"
   },
   {
