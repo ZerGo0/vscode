@@ -12,6 +12,7 @@ code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension redhat.vscode-xml
+code --install-extension rust-lang.rust-analyzer
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
