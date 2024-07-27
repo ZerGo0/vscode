@@ -96,5 +96,10 @@
   "go.toolsManagement.autoUpdate": true,
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  }
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "playwright.showTrace": false,
+  "timetracker.autostart.autoCreateTimeTrackingFile": true,
+  "timetracker.autostart.autoStartTimeTracking": true,
+  "timetracker.dotTimeTrackerIndent": 2
 }

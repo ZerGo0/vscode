@@ -1,3 +1,4 @@
+code --install-extension blade.timetracker
 code --install-extension bradlc.vscode-tailwindcss
 code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
@@ -8,13 +9,15 @@ code --install-extension github.copilot
 code --install-extension github.copilot-chat
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-playwright.playwright
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode.makefile-tools
 code --install-extension redhat.vscode-xml
 code --install-extension rust-lang.rust-analyzer
-code --install-extension serayuzgur.crates
+code --install-extension sourcegraph.cody-ai
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
