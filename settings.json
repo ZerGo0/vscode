@@ -100,6 +100,7 @@
   "github.copilot.editor.enableAutoCompletions": true,
   "playwright.showTrace": false,
   "timetracker.autostart.autoCreateTimeTrackingFile": true,
-  "timetracker.autostart.autoStartTimeTracking": true,
-  "timetracker.dotTimeTrackerIndent": 2
+  "timetracker.autostart.autoStartTimeTracking": false,
+  "timetracker.dotTimeTrackerIndent": 2,
+  "githubIssues.issueBranchTitle": "Dev-${issueNumber}"
 }
