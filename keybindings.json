@@ -234,5 +234,13 @@
   {
     "key": "ctrl+b",
     "command": "-workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "git.branchFrom"
   }
 ]
