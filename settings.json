@@ -102,5 +102,6 @@
   "timetracker.autostart.autoCreateTimeTrackingFile": true,
   "timetracker.autostart.autoStartTimeTracking": false,
   "timetracker.dotTimeTrackerIndent": 2,
-  "githubIssues.issueBranchTitle": "Dev-${issueNumber}"
+  "githubIssues.issueBranchTitle": "Dev-${issueNumber}",
+  "makefile.configureOnOpen": false
 }
