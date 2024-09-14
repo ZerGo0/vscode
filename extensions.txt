@@ -20,4 +20,5 @@ code --install-extension rust-lang.rust-analyzer
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
+code --install-extension wakatime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight

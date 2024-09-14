@@ -103,5 +103,6 @@
   "timetracker.autostart.autoStartTimeTracking": false,
   "timetracker.dotTimeTrackerIndent": 2,
   "githubIssues.issueBranchTitle": "Dev-${issueNumber}",
-  "makefile.configureOnOpen": false
+  "makefile.configureOnOpen": false,
+  "playwright.reuseBrowser": false
 }
