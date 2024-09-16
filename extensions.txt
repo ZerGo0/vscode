@@ -4,6 +4,7 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension dustypomerleau.rust-syntax
 code --install-extension esbenp.prettier-vscode
+code --install-extension fill-labs.dependi
 code --install-extension github.copilot
 code --install-extension github.copilot-chat
 code --install-extension github.vscode-pull-request-github
