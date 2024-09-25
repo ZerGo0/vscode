@@ -1,4 +1,5 @@
 code --install-extension bradlc.vscode-tailwindcss
+code --install-extension codeium.codeium
 code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
