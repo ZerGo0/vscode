@@ -104,5 +104,10 @@
   "timetracker.dotTimeTrackerIndent": 2,
   "githubIssues.issueBranchTitle": "Dev-${issueNumber}",
   "makefile.configureOnOpen": false,
-  "playwright.reuseBrowser": false
+  "playwright.reuseBrowser": false,
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true
+  },
+  "codeium.searchMaxWorkspaceFileCount": 0
 }
