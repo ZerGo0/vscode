@@ -89,7 +89,7 @@
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.enable": {
     "*": true,
-    "plaintext": false,
+    "plaintext": true,
     "markdown": true,
     "scminput": false
   },
@@ -107,7 +107,9 @@
   "playwright.reuseBrowser": false,
   "codeium.enableConfig": {
     "*": true,
-    "markdown": true
+    "markdown": true,
+    "plaintext": true
   },
-  "codeium.searchMaxWorkspaceFileCount": 0
+  "codeium.searchMaxWorkspaceFileCount": 0,
+  "continue.telemetryEnabled": false
 }

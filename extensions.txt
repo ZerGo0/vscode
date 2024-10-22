@@ -1,11 +1,9 @@
 code --install-extension bradlc.vscode-tailwindcss
-code --install-extension codeium.codeium
 code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension donjayamanne.githistory
 code --install-extension dustypomerleau.rust-syntax
 code --install-extension esbenp.prettier-vscode
-code --install-extension fill-labs.dependi
 code --install-extension github.copilot
 code --install-extension github.copilot-chat
 code --install-extension github.vscode-pull-request-github
@@ -18,9 +16,9 @@ code --install-extension ms-python.vscode-pylance
 code --install-extension ms-vscode-remote.remote-containers
 code --install-extension ms-vscode.makefile-tools
 code --install-extension redhat.vscode-xml
-code --install-extension rust-lang.rust-analyzer
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
 code --install-extension wakatime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension yoavbls.pretty-ts-errors
