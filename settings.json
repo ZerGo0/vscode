@@ -10,16 +10,9 @@
   "chat.editor.fontSize": 16,
   "markdown.preview.fontSize": 16,
   "editor.inlineSuggest.suppressSuggestions": true,
-  "cody.commandCodeLenses": true,
-  "cody.telemetry.level": "off",
-  "cody.autocomplete.formatOnAccept": true,
   "editor.formatOnSave": true,
   "editor.foldingImportsByDefault": true,
   "editor.showFoldingControls": "always",
-  "autofold.default": 1,
-  "autofold.delay": 0,
-  "autofold.unfold": true,
-  "autofold.pack": false,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "'Hack', Hack",
   "git.confirmSync": false,
@@ -94,22 +87,15 @@
     "scminput": false
   },
   "go.toolsManagement.autoUpdate": true,
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
   "github.copilot.editor.enableAutoCompletions": true,
   "playwright.showTrace": false,
-  "timetracker.autostart.autoCreateTimeTrackingFile": true,
-  "timetracker.autostart.autoStartTimeTracking": false,
-  "timetracker.dotTimeTrackerIndent": 2,
   "githubIssues.issueBranchTitle": "Dev-${issueNumber}",
   "makefile.configureOnOpen": false,
   "playwright.reuseBrowser": false,
-  "codeium.enableConfig": {
-    "*": true,
-    "markdown": true,
-    "plaintext": true
+  "editor.quickSuggestions": {
+    "strings": true
   },
-  "codeium.searchMaxWorkspaceFileCount": 0,
-  "continue.telemetryEnabled": false
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "git.ignoreRebaseWarning": true
 }
