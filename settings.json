@@ -56,7 +56,7 @@
   "go.survey.prompt": false,
   "go.showWelcome": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "always"
+    // "source.organizeImports": "always"
   },
   "editor.tabSize": 2,
   "[typescript]": {
@@ -97,5 +97,9 @@
   },
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
-  "git.ignoreRebaseWarning": true
+  "git.ignoreRebaseWarning": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "cursor.cpp.disabledLanguages": ["scminput"],
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "workbench.activityBar.orientation": "vertical"
 }

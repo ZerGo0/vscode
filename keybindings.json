@@ -242,5 +242,28 @@
   {
     "key": "ctrl+j",
     "command": "git.branchFrom"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "-composer.newchatfollowup"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "-editor.action.inlineDiffs.acceptPartialEdit",
+    "when": "editorTextFocus && (arbitrary function)"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-cursorUndo",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-cursorai.action.retryInterpreterAction",
+    "when": "activeAIChatEditor || view == 'workbench.panel.aichat.view' || (arbitrary function) && (arbitrary function)"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "git.pull"
   }
 ]
