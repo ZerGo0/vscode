@@ -101,5 +101,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "cursor.cpp.disabledLanguages": ["scminput"],
   "cursor.composer.collapsePaneInputBoxPills": true,
-  "workbench.activityBar.orientation": "vertical"
+  "workbench.activityBar.orientation": "vertical",
+  "comments.openView": "never"
 }
