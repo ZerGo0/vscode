@@ -56,7 +56,7 @@
   "go.survey.prompt": false,
   "go.showWelcome": false,
   "editor.codeActionsOnSave": {
-    // "source.organizeImports": "always"
+    "source.organizeImports": "always"
   },
   "editor.tabSize": 2,
   "[typescript]": {
@@ -89,7 +89,7 @@
   "go.toolsManagement.autoUpdate": true,
   "github.copilot.editor.enableAutoCompletions": true,
   "playwright.showTrace": false,
-  "githubIssues.issueBranchTitle": "Dev-${issueNumber}",
+  "githubIssues.issueBranchTitle": "zergo0/Dev-${issueNumber}",
   "makefile.configureOnOpen": false,
   "playwright.reuseBrowser": false,
   "editor.quickSuggestions": {
