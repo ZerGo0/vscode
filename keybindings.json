@@ -229,7 +229,17 @@
   },
   {
     "key": "ctrl+e",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "workbench.action.toggleSidebarVisibility"
+        },
+        {
+          "command": "workbench.action.toggleAuxiliaryBar"
+        }
+      ]
+    }
   },
   {
     "key": "ctrl+b",
@@ -265,5 +275,13 @@
   {
     "key": "ctrl+u",
     "command": "git.pull"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "-workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "-aichat.newfollowupaction"
   }
 ]
