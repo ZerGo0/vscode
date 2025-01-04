@@ -102,5 +102,6 @@
   "cursor.cpp.disabledLanguages": ["scminput"],
   "cursor.composer.collapsePaneInputBoxPills": true,
   "workbench.activityBar.orientation": "vertical",
-  "comments.openView": "never"
+  "comments.openView": "never",
+  "workbench.editor.wrapTabs": true
 }
