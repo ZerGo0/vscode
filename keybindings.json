@@ -230,13 +230,29 @@
   {
     "key": "ctrl+e",
     "command": "runCommands",
+    "when": "sideBarVisible",
     "args": {
       "commands": [
         {
-          "command": "workbench.action.toggleSidebarVisibility"
+          "command": "workbench.action.closeSidebar"
         },
         {
+          "command": "aichat.close-sidebar"
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+e",
+    "command": "runCommands",
+    "when": "!sideBarVisible",
+    "args": {
+      "commands": [
+        {
           "command": "workbench.action.toggleAuxiliaryBar"
+        },
+        {
+          "command": "workbench.action.toggleSidebarVisibility"
         }
       ]
     }
