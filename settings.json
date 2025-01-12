@@ -103,5 +103,6 @@
   "cursor.composer.collapsePaneInputBoxPills": true,
   "workbench.activityBar.orientation": "vertical",
   "comments.openView": "never",
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+  "githubPullRequests.commentExpandState": "collapseAll"
 }
