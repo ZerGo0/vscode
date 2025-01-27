@@ -1,4 +1,5 @@
 [
+  // Source: https://github.com/smcpeak/vscode-default-keys-windows/blob/master/reference/default-windows-keybindings.json
   {
     "key": "escape escape",
     "command": "workbench.action.exitZenMode",
