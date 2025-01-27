@@ -104,5 +104,6 @@
   "workbench.activityBar.orientation": "vertical",
   "comments.openView": "never",
   "workbench.editor.wrapTabs": true,
-  "githubPullRequests.commentExpandState": "collapseAll"
+  "githubPullRequests.commentExpandState": "collapseAll",
+  "window.commandCenter": true
 }
