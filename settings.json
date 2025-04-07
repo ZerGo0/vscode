@@ -105,9 +105,7 @@
   "comments.openView": "never",
   "workbench.editor.wrapTabs": true,
   "githubPullRequests.commentExpandState": "collapseAll",
-<<<<<<< Updated upstream
-  "window.commandCenter": true
-=======
+  "window.commandCenter": true,
   "update.releaseTrack": "prerelease",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
@@ -128,5 +126,4 @@
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.parameterTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all"
->>>>>>> Stashed changes
 }
