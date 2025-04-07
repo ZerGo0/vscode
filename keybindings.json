@@ -301,6 +301,7 @@
     "command": "-aichat.newfollowupaction"
   },
   {
+<<<<<<< Updated upstream
     "key": "ctrl+l",
     "command": "-workbench.action.chat.newChat",
     "when": "chatIsEnabled && inChat"
@@ -314,5 +315,15 @@
     "key": "ctrl+l",
     "command": "-windsurf.prioritized.chat.openFromTerminal",
     "when": "terminalFocus"
+=======
+    "key": "ctrl+n",
+    "command": "-editor.action.inlineDiffs.rejectPartialEdit",
+    "when": "editorTextFocus && (arbitrary function)"
+  },
+  {
+    "key": "ctrl+backspace",
+    "command": "-composer.cancelComposerStep",
+    "when": "composerFocused"
+>>>>>>> Stashed changes
   }
 ]
