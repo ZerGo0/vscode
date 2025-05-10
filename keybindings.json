@@ -3894,11 +3894,11 @@
     "command": "-acceptSelectedSuggestion",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
   },
-  {
-    "key": "tab",
-    "command": "tab",
-    "when": "!cpp.shouldAcceptTab"
-  },
+  // {
+  //   "key": "tab",
+  //   "command": "tab",
+  //   "when": "!cpp.shouldAcceptTab"
+  // },
   {
     "key": "cmd+n",
     "command": "-editor.action.inlineDiffs.rejectPartialEdit",
