@@ -101,7 +101,6 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "cursor.cpp.disabledLanguages": ["scminput"],
   "cursor.composer.collapsePaneInputBoxPills": true,
-  "workbench.activityBar.orientation": "vertical",
   "comments.openView": "never",
   "workbench.editor.wrapTabs": true,
   "githubPullRequests.commentExpandState": "collapseAll",
@@ -127,5 +126,29 @@
   "typescript.inlayHints.variableTypes.enabled": true,
   "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
   "typescript.inlayHints.parameterTypes.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all"
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "roo-cline.allowedCommands": [
+    "npm test",
+    "npm install",
+    "tsc",
+    "git log",
+    "git diff",
+    "git show",
+    "bun run check",
+    "bun run format",
+    "bun run lint",
+    "ls",
+    "find",
+    "curl",
+    "date",
+    "cp",
+    "mv",
+    "mkdir",
+    "touch",
+    "cd",
+    "go fmt"
+  ],
+  "terminal.integrated.defaultProfile.osx": "bash",
+  "tailwind-fold.foldStyle": "QUOTES",
+  "tailwind-fold.autoFold": false
 }

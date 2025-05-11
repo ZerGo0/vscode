@@ -2593,11 +2593,6 @@
     "command": "workbench.action.moveEditorToPreviousGroup"
   },
   {
-    "key": "alt+right",
-    "command": "workbench.action.navigateForward",
-    "when": "canNavigateForward"
-  },
-  {
     "key": "ctrl+k ctrl+q",
     "command": "workbench.action.navigateToLastEditLocation"
   },
@@ -3728,7 +3723,7 @@
     "when": "accessibilityHelpIsShown"
   },
   {
-    "key": "ctrl+[Comma]",
+    "key": "ctrl+e",
     "command": "runCommands",
     "when": "sideBarVisible",
     "args": {
@@ -3743,7 +3738,7 @@
     }
   },
   {
-    "key": "ctrl+[Comma]",
+    "key": "ctrl+e",
     "command": "runCommands",
     "when": "!sideBarVisible",
     "args": {
@@ -3912,5 +3907,38 @@
   {
     "key": "cmd+i",
     "command": "composerMode.agent"
+  },
+  {
+    "key": "ctrl+e",
+    "command": "-cursorLineEnd",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFile",
+    "when": "false"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openFileFolder",
+    "when": "isMacNative && openFolderWorkspaceSupport"
+  },
+  {
+    "key": "cmd+o",
+    "command": "-workbench.action.files.openLocalFileFolder",
+    "when": "remoteFileDialogVisible"
+  },
+  {
+    "key": "cmd+o",
+    "command": "tailwind-fold.toggleAutoFold"
+  },
+  {
+    "key": "ctrl+alt+a",
+    "command": "-tailwind-fold.toggleAutoFold"
   }
 ]
