@@ -160,11 +160,7 @@
     "typescript",
     "typescriptreact",
     "html",
-    "mdx",
     "vue",
-    "markdown",
-    "json",
-    "jsonc",
     "svelte"
   ],
   "eslint.validate": [
@@ -174,11 +170,7 @@
     "typescript",
     "typescriptreact",
     "html",
-    "mdx",
     "vue",
-    "markdown",
-    "json",
-    "jsonc",
     "svelte"
   ]
 }
