@@ -107,7 +107,6 @@
   "githubPullRequests.commentExpandState": "collapseAll",
   "window.commandCenter": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "update.releaseTrack": "prerelease",
   "json-to-go.io.input": "clipboard",
   "go.inlayHints.assignVariableTypes": true,
   "go.inlayHints.compositeLiteralFields": true,
@@ -152,6 +151,7 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.autoFold": false,
+  "update.releaseTrack": "prerelease",
   "githubPullRequests.pullBranch": "never",
   "eslint.probe": [
     "astro",
