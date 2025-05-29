@@ -3948,5 +3948,13 @@
       "text": "\u0003"
     },
     "when": "terminalFocus"
+  },
+  {
+    "key": "shift+enter",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": {
+      "text": " \r\n"
+    },
+    "when": "terminalFocus"
   }
 ]
