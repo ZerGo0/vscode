@@ -172,5 +172,8 @@
     "html",
     "vue",
     "svelte"
-  ]
+  ],
+  "augment.disableFocusOnAugmentPanel": true,
+  "amp.notifications.enabled": false,
+  "amp.tab.enabled": true
 }

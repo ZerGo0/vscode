@@ -3868,11 +3868,11 @@
     "key": "ctrl+g",
     "command": "-workbench.action.gotoLine"
   },
-  {
-    "key": "tab",
-    "command": "-tab",
-    "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-  },
+  // {
+  //   "key": "tab",
+  //   "command": "-tab",
+  //   "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+  // },
   {
     "key": "tab",
     "command": "-editor.emmet.action.expandAbbreviation",
@@ -3883,11 +3883,11 @@
     "command": "-acceptSelectedSuggestion",
     "when": "suggestWidgetHasFocusedSuggestion && suggestWidgetVisible && textInputFocus"
   },
-  {
-    "key": "tab",
-    "command": "tab",
-    "when": "!cpp.shouldAcceptTab"
-  },
+  // {
+  //   "key": "tab",
+  //   "command": "tab",
+  //   "when": "!cpp.shouldAcceptTab"
+  // },
   {
     "key": "cmd+n",
     "command": "-editor.action.inlineDiffs.rejectPartialEdit",
