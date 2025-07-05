@@ -3721,13 +3721,14 @@
         {
           "command": "workbench.action.closeSidebar"
         },
-        {
-          "command": "workbench.action.closeAuxiliaryBar"
-        }
-        // cursor only
+        // vscode only
         // {
-        //   "command": "aichat.close-sidebar"
+        //   "command": "workbench.action.closeAuxiliaryBar"
         // }
+        // cursor only
+        {
+          "command": "aichat.close-sidebar"
+        }
       ]
     }
   },
