@@ -3722,8 +3722,12 @@
           "command": "workbench.action.closeSidebar"
         },
         {
-          "command": "aichat.close-sidebar"
+          "command": "workbench.action.closeAuxiliaryBar"
         }
+        // cursor only
+        // {
+        //   "command": "aichat.close-sidebar"
+        // }
       ]
     }
   },
