@@ -56,8 +56,8 @@
   "go.survey.prompt": false,
   "go.showWelcome": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "always",
-    "source.fixAll.eslint": "always"
+    "source.organizeImports": "explicit",
+    "source.fixAll.eslint": "explicit"
   },
   "editor.tabSize": 2,
   "[typescript]": {
@@ -175,5 +175,7 @@
   ],
   "augment.disableFocusOnAugmentPanel": true,
   "amp.notifications.enabled": false,
-  "amp.tab.enabled": true
+  "amp.tab.enabled": true,
+  "typescript.tsserver.nodePath": "/opt/homebrew/bin/node",
+  "typescript.tsserver.maxTsServerMemory": 8192
 }
