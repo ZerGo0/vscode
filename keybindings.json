@@ -3738,6 +3738,9 @@
         },
         {
           "command": "workbench.action.toggleSidebarVisibility"
+        },
+        {
+          "command": "workbench.action.terminal.toggleTerminal"
         }
       ]
     }

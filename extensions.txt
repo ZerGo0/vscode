@@ -7,6 +7,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension figma.figma-vscode-extension
 code --install-extension github.vscode-pull-request-github
 code --install-extension golang.go
+code --install-extension ms-azuretools.vscode-containers
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-playwright.playwright
 code --install-extension ms-python.debugpy
@@ -15,7 +16,6 @@ code --install-extension ms-python.vscode-pylance
 code --install-extension redhat.vscode-xml
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
-code --install-extension traycer.traycer-vscode
 code --install-extension usernamehw.errorlens
 code --install-extension wakatime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight
