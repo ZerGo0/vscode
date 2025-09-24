@@ -172,5 +172,10 @@
     "html",
     "vue",
     "svelte"
-  ]
+  ],
+  "augment.disableFocusOnAugmentPanel": true,
+  "amp.notifications.enabled": false,
+  "amp.tab.enabled": true,
+  "typescript.tsserver.nodePath": "/opt/homebrew/bin/node",
+  "typescript.tsserver.maxTsServerMemory": 8192
 }

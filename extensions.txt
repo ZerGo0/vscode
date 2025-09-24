@@ -2,9 +2,10 @@ code --install-extension bradlc.vscode-tailwindcss
 code --install-extension csstools.postcss
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension docker.docker
-code --install-extension donjayamanne.githistory
 code --install-extension esbenp.prettier-vscode
 code --install-extension figma.figma-vscode-extension
+code --install-extension github.copilot
+code --install-extension github.copilot-chat
 code --install-extension github.vscode-pull-request-github
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-containers
@@ -13,7 +14,9 @@ code --install-extension ms-playwright.playwright
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
+code --install-extension ms-python.vscode-python-envs
 code --install-extension redhat.vscode-xml
+code --install-extension sourcegraph.amp
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
 code --install-extension usernamehw.errorlens
