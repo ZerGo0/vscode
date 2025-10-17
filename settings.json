@@ -179,5 +179,6 @@
   "typescript.tsserver.nodePath": "/opt/homebrew/bin/node",
   "typescript.tsserver.maxTsServerMemory": 8192,
   "extensions.ignoreRecommendations": true,
-  "amp.tab.hoverDiagnosticSuggestions": true
+  "amp.tab.hoverDiagnosticSuggestions": true,
+  "json.schemaDownload.enable": true
 }
