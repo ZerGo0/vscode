@@ -4,13 +4,10 @@ code --install-extension dbaeumer.vscode-eslint
 code --install-extension docker.docker
 code --install-extension esbenp.prettier-vscode
 code --install-extension figma.figma-vscode-extension
-code --install-extension github.copilot
-code --install-extension github.copilot-chat
 code --install-extension github.vscode-pull-request-github
 code --install-extension golang.go
 code --install-extension ms-azuretools.vscode-containers
 code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-playwright.playwright
 code --install-extension ms-python.debugpy
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
