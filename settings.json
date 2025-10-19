@@ -180,5 +180,9 @@
   "typescript.tsserver.maxTsServerMemory": 8192,
   "extensions.ignoreRecommendations": true,
   "amp.tab.hoverDiagnosticSuggestions": true,
-  "json.schemaDownload.enable": true
+  "json.schemaDownload.enable": true,
+  "codeium.enableCodeLens": false,
+  "codeium.enableExplainProblem": false,
+  "codeium.enableSearch": true,
+  "codeium.searchMaxWorkspaceFileCount": 0
 }
