@@ -184,5 +184,6 @@
   "codeium.enableCodeLens": false,
   "codeium.enableExplainProblem": false,
   "codeium.enableSearch": true,
-  "codeium.searchMaxWorkspaceFileCount": 0
+  "codeium.searchMaxWorkspaceFileCount": 0,
+  "cursor.enable_agent_window_setting": false
 }
