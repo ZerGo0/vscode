@@ -151,7 +151,6 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "tailwind-fold.foldStyle": "QUOTES",
   "tailwind-fold.autoFold": false,
-  "update.releaseTrack": "prerelease",
   "githubPullRequests.pullBranch": "never",
   "eslint.probe": [
     "astro",
@@ -185,5 +184,6 @@
   "codeium.enableExplainProblem": false,
   "codeium.enableSearch": true,
   "codeium.searchMaxWorkspaceFileCount": 0,
-  "cursor.enable_agent_window_setting": false
+  "cursor.enable_agent_window_setting": false,
+  "tailwindCSS.lint.suggestCanonicalClasses": "ignore"
 }
