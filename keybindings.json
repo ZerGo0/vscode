@@ -3903,10 +3903,6 @@
     "when": "editorTextFocus && hasGPT4Diff"
   },
   {
-    "key": "cmd+i",
-    "command": "composerMode.agent"
-  },
-  {
     "key": "ctrl+e",
     "command": "-cursorLineEnd",
     "when": "textInputFocus"

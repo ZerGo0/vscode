@@ -1,7 +1,6 @@
 {
   "workbench.startupEditor": "none",
   "svelte.enable-ts-plugin": true,
-  "workbench.colorTheme": "Ayu Dark",
   "editor.fontSize": 16,
   "explorer.confirmDelete": false,
   "debug.console.fontSize": 16,
@@ -185,5 +184,8 @@
   "codeium.enableSearch": true,
   "codeium.searchMaxWorkspaceFileCount": 0,
   "cursor.enable_agent_window_setting": false,
-  "tailwindCSS.lint.suggestCanonicalClasses": "ignore"
+  "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
+  "trae.notification.enableOffersAndPromotions": false,
+  "trae.notification.enableTipsAndSuggestions": false,
+  "trae.notification.enableFeedbackAndSurveys": false
 }
