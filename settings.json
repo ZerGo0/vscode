@@ -1,5 +1,6 @@
 {
   "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Ayu Dark",
   "svelte.enable-ts-plugin": true,
   "editor.fontSize": 16,
   "explorer.confirmDelete": false,
