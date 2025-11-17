@@ -187,5 +187,6 @@
   "tailwindCSS.lint.suggestCanonicalClasses": "ignore",
   "trae.notification.enableOffersAndPromotions": false,
   "trae.notification.enableTipsAndSuggestions": false,
-  "trae.notification.enableFeedbackAndSurveys": false
+  "trae.notification.enableFeedbackAndSurveys": false,
+  "terminal.integrated.shellIntegration.history": 0
 }
