@@ -55,7 +55,7 @@
   "go.survey.prompt": false,
   "go.showWelcome": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
+    "source.organizeImports": "never",
     "source.fixAll.eslint": "always",
   },
   "editor.tabSize": 2,
