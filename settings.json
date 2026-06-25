@@ -191,5 +191,10 @@
   "trae.notification.enableFeedbackAndSurveys": false,
   "terminal.integrated.shellIntegration.history": 0,
   "codescene.enableAutoRefactor": false,
-  "codescene.enableTelemetry": false
+  "codescene.enableTelemetry": false,
+  "window.autoDetectColorScheme": false,
+  "editor.accessibilitySupport": "off",
+  "[markdown]": {
+    "editor.formatOnSave": false,
+  },
 }
