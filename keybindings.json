@@ -3721,13 +3721,8 @@
         {
           "command": "workbench.action.closeSidebar",
         },
-        // vscode only
-        // {
-        //   "command": "workbench.action.closeAuxiliaryBar"
-        // }
-        // cursor only
         {
-          "command": "aichat.close-sidebar",
+          "command": "workbench.action.closeAuxiliaryBar",
         },
       ],
     },
@@ -3763,23 +3758,9 @@
     "command": "git.branchFrom",
   },
   {
-    "key": "ctrl+y",
-    "command": "-composer.newchatfollowup",
-  },
-  {
-    "key": "ctrl+y",
-    "command": "-editor.action.inlineDiffs.acceptPartialEdit",
-    "when": "editorTextFocus && (arbitrary function)",
-  },
-  {
     "key": "ctrl+u",
     "command": "-cursorUndo",
     "when": "textInputFocus",
-  },
-  {
-    "key": "ctrl+u",
-    "command": "-cursorai.action.retryInterpreterAction",
-    "when": "activeAIChatEditor || view == 'workbench.panel.aichat.view' || (arbitrary function) && (arbitrary function)",
   },
   {
     "key": "cmd+u",
@@ -3788,10 +3769,6 @@
   {
     "key": "ctrl+alt+b",
     "command": "-workbench.action.toggleAuxiliaryBar",
-  },
-  {
-    "key": "ctrl+y",
-    "command": "-aichat.newfollowupaction",
   },
   {
     "key": "shift+cmd+v",
@@ -3838,11 +3815,6 @@
     "key": "cmd+u",
     "command": "-cursorUndo",
     "when": "textInputFocus",
-  },
-  {
-    "key": "cmd+u",
-    "command": "-cursorai.action.retryInterpreterAction",
-    "when": "activeAIChatEditor || view == 'workbench.panel.aichat.view' || (arbitrary function) && (arbitrary function)",
   },
   {
     "key": "f4",
@@ -3892,16 +3864,6 @@
   //   "command": "tab",
   //   "when": "!cpp.shouldAcceptTab"
   // },
-  {
-    "key": "cmd+n",
-    "command": "-editor.action.inlineDiffs.rejectPartialEdit",
-    "when": "editorTextFocus && (arbitrary function)",
-  },
-  {
-    "key": "cmd+n",
-    "command": "-editor.action.rejectGPT4",
-    "when": "editorTextFocus && hasGPT4Diff",
-  },
   {
     "key": "ctrl+e",
     "command": "-cursorLineEnd",
