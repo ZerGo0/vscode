@@ -7,7 +7,6 @@ code --install-extension github.vscode-pull-request-github
 code --install-extension golang.go
 code --install-extension svelte.svelte-vscode
 code --install-extension teabyii.ayu
-code --install-extension typescriptteam.native-preview
 code --install-extension usernamehw.errorlens
 code --install-extension wakatime.vscode-wakatime
 code --install-extension wayou.vscode-todo-highlight
