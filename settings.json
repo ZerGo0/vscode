@@ -1,7 +1,8 @@
 {
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Ayu Dark",
-  "svelte.enable-ts-plugin": true,
+  "svelte.enable-ts-plugin": false,
+  "svelte.ask-to-enable-ts-plugin": false,
   "editor.fontSize": 16,
   "explorer.confirmDelete": false,
   "debug.console.fontSize": 16,
@@ -175,7 +176,6 @@
   "amp.tab.enabled": true,
   "js/ts.preferences.includePackageJsonAutoImports": "off",
   "js/ts.tsserver.automaticTypeAcquisition.enabled": false,
-  "js/ts.tsserver.maxMemory": 2048,
   "js/ts.workspaceSymbols.scope": "currentProject",
   "extensions.ignoreRecommendations": true,
   "amp.tab.hoverDiagnosticSuggestions": true,
@@ -222,4 +222,5 @@
     "editor.formatOnSave": false,
   },
   "workbench.activityBar.location": "top",
+  "workbench.experimental.modernUI": true,
 }
