@@ -21,7 +21,7 @@
   "workbench.colorCustomizations": {
     "sideBar.foreground": "#ffffff",
     "list.inactiveSelectionForeground": "#e28000",
-    "list.activeSelectionForeground": "#e28000",
+    "list.activeSelectionForeground": "#e28000"
   },
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -36,48 +36,48 @@
           "variable.other.jsdoc",
           "punctuation.definition.comment",
           "punctuation.definition.comment.begin.documentation",
-          "punctuation.definition.comment.end.documentation",
+          "punctuation.definition.comment.end.documentation"
         ],
         "settings": {
           "fontStyle": "italic",
-          "foreground": "#474747",
-        },
-      },
-    ],
+          "foreground": "#474747"
+        }
+      }
+    ]
   },
   "editor.smoothScrolling": false,
   "git.enableSmartCommit": true,
   "gopls": {
-    "ui.semanticTokens": true,
+    "ui.semanticTokens": true
   },
   "workbench.reduceMotion": "on",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "go.survey.prompt": false,
   "go.showWelcome": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": "never",
-    "source.fixAll.eslint": "always",
+    "source.fixAll.eslint": "always"
   },
   "editor.tabSize": 2,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "files.associations": {
-    "*.env": "properties",
+    "*.env": "properties"
   },
   "explorer.confirmDragAndDrop": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[svelte]": {
-    "editor.defaultFormatter": "svelte.svelte-vscode",
+    "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "[go]": {
-    "editor.defaultFormatter": "golang.go",
+    "editor.defaultFormatter": "golang.go"
   },
   "redhat.telemetry.enabled": false,
   "[xml]": {
-    "editor.defaultFormatter": "redhat.vscode-xml",
+    "editor.defaultFormatter": "redhat.vscode-xml"
   },
   "telemetry.telemetryLevel": "off",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -86,7 +86,7 @@
     "*": true,
     "plaintext": true,
     "markdown": true,
-    "scminput": false,
+    "scminput": false
   },
   "go.toolsManagement.autoUpdate": true,
   "github.copilot.editor.enableAutoCompletions": true,
@@ -95,7 +95,7 @@
   "makefile.configureOnOpen": false,
   "playwright.reuseBrowser": false,
   "editor.quickSuggestions": {
-    "strings": true,
+    "strings": true
   },
   "go.lintTool": "golangci-lint",
   "go.lintFlags": ["--fast"],
@@ -145,7 +145,7 @@
     "mkdir",
     "touch",
     "cd",
-    "go fmt",
+    "go fmt"
   ],
   "terminal.integrated.defaultProfile.osx": "zsh",
   "tailwind-fold.foldStyle": "QUOTES",
@@ -159,7 +159,7 @@
     "typescriptreact",
     "html",
     "vue",
-    "svelte",
+    "svelte"
   ],
   "eslint.validate": [
     "astro",
@@ -169,7 +169,7 @@
     "typescriptreact",
     "html",
     "vue",
-    "svelte",
+    "svelte"
   ],
   "augment.disableFocusOnAugmentPanel": true,
   "amp.notifications.enabled": false,
@@ -205,7 +205,7 @@
     "**/.wrangler/**": true,
     "**/coverage/**": true,
     "**/dist/**": true,
-    "**/node_modules/**": true,
+    "**/node_modules/**": true
   },
   "search.exclude": {
     "**/.astro": true,
@@ -216,11 +216,12 @@
     "**/.wrangler": true,
     "**/coverage": true,
     "**/dist": true,
-    "**/node_modules": true,
+    "**/node_modules": true
   },
   "[markdown]": {
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "workbench.activityBar.location": "top",
   "workbench.experimental.modernUI": true,
+  "security.workspace.trust.untrustedFiles": "open"
 }
