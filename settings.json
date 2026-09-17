@@ -176,6 +176,7 @@
   "amp.tab.enabled": true,
   "js/ts.preferences.includePackageJsonAutoImports": "off",
   "js/ts.tsserver.maxMemory": 8192,
+  "js/ts.tsserver.node.path": "/opt/homebrew/bin/node",
   "js/ts.tsserver.automaticTypeAcquisition.enabled": false,
   "js/ts.workspaceSymbols.scope": "currentProject",
   "extensions.ignoreRecommendations": true,
